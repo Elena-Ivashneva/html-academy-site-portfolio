@@ -54,6 +54,21 @@ body {
   background-image: url("img/icon-phone-header.svg");
 }
 
+.main-link {
+  color: #8da2ed;
+  text-decoration: none;
+}
+
+.main-link:hover {
+  border-bottom: 1px solid #8da2ed;
+  filter: hue-rotate(50deg);
+}
+
+.main-link:active {
+  filter: hue-rotate(0);
+  opacity: 0.6;
+}
+
 .hero-image {
   position: relative;
   height: 564px;
@@ -188,6 +203,10 @@ body {
 .intro p {
   margin: 0;
   width: 688px;
+}
+
+.intro p:first-of-type {
+  margin-bottom: 6px;
 }
 
 .intro .container div:nth-of-type(2) {
